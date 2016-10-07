@@ -1,0 +1,22 @@
+galaxy_info:
+  author: Will Boyce
+  description: meta-role which depends on my app-specific dotfiles roles
+  license: Apache2
+  min_ansible_version: 1.2
+  platforms:
+  - name: MacOSX
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  galaxy_tags: [dotfiles]
+
+dependencies:
+  - wrboyce.dotfiles-assh
+  - wrboyce.dotfiles-git
+  - wrboyce.dotfiles-vim
+  - wrboyce.dotfiles-zsh
